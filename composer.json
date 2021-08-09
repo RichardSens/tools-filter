@@ -1,0 +1,23 @@
+{
+	"name" : "tools/tools-filter",
+	"description" : "Bibilioteca filtrar Strings",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Richard Turrini Sens",
+			"email" : "richardsens@gmail.com"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"Tools\\Filter\\" : "src/"
+		}
+	},
+	"autoload-dev" : {
+		"psr-4" : {
+			"Tools\\Filter\\Test\\" : "test/"
+		}
+	},
+	"require": {
+		"php" : ">=7.1"
+	}
+}
